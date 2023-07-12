@@ -89,3 +89,7 @@ storeItems.forEach(function(item) {
         $('.bar-parent').append(bar);
     }
   });
+
+$('.toggle').mouseover(function() {
+    $(this).css('cursor', 'pointer');
+});
